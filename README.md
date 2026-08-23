@@ -2,6 +2,14 @@
 
 Focusly 是一个面向自习、刷题与复盘的轻量学习工作台，包含番茄计时、学习任务、专注记录与统计图表。项目在远端 API 可用时优先同步数据；网络不可用或请求超时时，任务、配置和打卡记录会使用 LocalStorage 兜底，并将可重试写操作放入 pending 队列。
 
+## 界面预览
+
+![Focusly 首页预览](docs/images/home-preview.png)
+
+![Focusly 学习工作台预览1](docs/images/workspace-preview1.png)
+
+![Focusly 学习工作台预览2](docs/images/workspace-preview2.png)
+
 ## 技术栈
 
 - Vue 3 Composition API
